@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   { path: '', redirectTo: '/alumnos/lista-alumnos', pathMatch: 'full' },
+
   {
     path: 'alumnos',
     loadChildren: () =>
@@ -10,6 +11,7 @@ const routes: Routes = [
         (m) => m.AlumnosModule
       ),
   },
+
   {
     path: 'cursos',
     loadChildren: () =>
@@ -17,6 +19,7 @@ const routes: Routes = [
         (m) => m.CursosModule
       ),
   },
+
   {
     path: 'clases',
     loadChildren: () =>
@@ -24,6 +27,7 @@ const routes: Routes = [
         (m) => m.ClasesModule
       ),
   },
+
   { path: '**', redirectTo: '/alumnos/lista-alumnos' },
 ];
 

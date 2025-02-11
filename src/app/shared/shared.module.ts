@@ -23,6 +23,7 @@ import {
 
 import { NombreApellidoPipe } from './pipes/nombre-apellido.pipe';
 import { HeaderSizeDirective } from './directives/header-size.directive';
+import { ToolbarComponent } from './components/toolbar/toolbar.component';
 
 @NgModule({
   imports: [
@@ -63,7 +64,8 @@ import { HeaderSizeDirective } from './directives/header-size.directive';
     MatTable,
     NombreApellidoPipe,
     HeaderSizeDirective,
+    ToolbarComponent,
   ],
-  declarations: [NombreApellidoPipe, HeaderSizeDirective],
+  declarations: [NombreApellidoPipe, HeaderSizeDirective, ToolbarComponent],
 })
 export class SharedModule {}
