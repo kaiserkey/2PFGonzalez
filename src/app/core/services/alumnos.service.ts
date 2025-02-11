@@ -15,6 +15,7 @@ export class AlumnosService {
   private alumnosSource = new BehaviorSubject<Alumno[]>([
     { id: 1, nombre: 'Juan', apellido: 'Perez', edad: 22 },
     { id: 2, nombre: 'Maria', apellido: 'Gomez', edad: 25 },
+    { id: 3, nombre: 'Carlos', apellido: 'Lopez', edad: 23 },
   ]);
   alumnos$ = this.alumnosSource.asObservable();
 

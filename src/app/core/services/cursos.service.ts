@@ -15,14 +15,14 @@ export class CursosService {
   private cursosSource = new BehaviorSubject<Curso[]>([
     {
       id: 1,
-      nombre: 'Matemáticas',
-      descripcion: 'Curso básico de matemáticas',
+      nombre: 'JavaScript',
+      descripcion: 'Curso sobre JavaScript',
       duracion: 40,
     },
     {
       id: 2,
-      nombre: 'Historia',
-      descripcion: 'Curso sobre historia mundial',
+      nombre: 'C# y .NET',
+      descripcion: 'Curso sobre C# y .NET',
       duracion: 30,
     },
   ]);

@@ -15,14 +15,14 @@ export class ClasesService {
   private clasesSource = new BehaviorSubject<Clase[]>([
     {
       id: 1,
-      nombre: 'Matemáticas',
-      descripcion: 'Clase de álgebra',
+      nombre: 'Angular Material',
+      descripcion: 'Clase de Angular Material',
       horario: 'Lunes 10:00 AM',
     },
     {
       id: 2,
-      nombre: 'Física',
-      descripcion: 'Clase de dinámica',
+      nombre: 'JavaScript Avanzado',
+      descripcion: 'Clase de JavaScript Avanzado',
       horario: 'Miércoles 2:00 PM',
     },
   ]);
